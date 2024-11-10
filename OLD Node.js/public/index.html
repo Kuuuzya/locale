@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Tracker</title>
+    <link rel="stylesheet" href="/style.css"> <!-- Подключаем CSS -->
+</head>
+<body>
+    <div class="container">
+        <h2>Coffee Tracker</h2>
+
+        <!-- Форма регистрации -->
+        <div id="register-form">
+            <h3>Регистрация</h3>
+            <input type="text" id="register-username" placeholder="Username">
+            <input type="email" id="register-email" placeholder="Email">
+            <input type="password" id="register-password" placeholder="Password">
+            <button onclick="register()">Зарегистрироваться</button>
+        </div>
+
+        <!-- Форма входа -->
+        <div id="login-form">
+            <h3>Вход</h3>
+            <input type="email" id="login-email" placeholder="Email">
+            <input type="password" id="login-password" placeholder="Password">
+            <button onclick="login()">Войти</button>
+        </div>
+
+        <!-- Блок с данными пользователя -->
+        <div id="user-data" class="logout">
+            <p>Добро пожаловать, <span id="user-name"></span>!</p>
+            <button onclick="logout()">Выйти</button>
+        </div>
+    </div>
+    <script src="/client.js"></script> <!-- Подключаем JavaScript -->
+</body>
+</html>
