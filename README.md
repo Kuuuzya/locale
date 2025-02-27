@@ -14,15 +14,15 @@ Coffee Spots is a community-driven platform where users can:
 ## 🛠 Tech Stack
 
 ### Frontend
-- React Native
+- React Native (Expo)
 - Redux for state management
 - React Navigation
 - Native Base UI components
+- TypeScript
 
 ### Backend
-- Node.js
-- Express
-- MongoDB
+- Python with FastAPI
+- PostgreSQL
 - JWT authentication
 
 ## 🚀 Features
